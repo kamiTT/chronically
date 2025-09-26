@@ -1,0 +1,4 @@
+baseURL = 'https://chronically.blog/'
+languageCode = 'en-us'
+title = 'Chronically'
+theme = 'stack'
