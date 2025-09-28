@@ -1,5 +1,16 @@
 {
   "plugins": ["prettier-plugin-go-template"],
+  "arrowParens": "avoid",
+  "bracketSameLine": false,
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "printWidth": 100,
+  "quoteProps": "as-needed",
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
   "overrides": [
     {
       "files": ["*.html"],
@@ -15,6 +26,25 @@
         "useTabs": false,
         "printWidth": 120,
         "singleQuote": true
+      }
+    },
+    {
+      "files": "*.md",
+      "options": {
+        "proseWrap": "always",
+        "printWidth": 80
+      }
+    },
+    {
+      "files": "*.json",
+      "options": {
+        "printWidth": 80
+      }
+    },
+    {
+      "files": "*.yml",
+      "options": {
+        "singleQuote": false
       }
     }
   ]

@@ -5,3 +5,6 @@
 /public/
 /resources/_gen/
 frontmatter.json
+dist/
+build/
+coverage/
