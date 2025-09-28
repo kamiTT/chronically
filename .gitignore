@@ -8,3 +8,4 @@ frontmatter.json
 dist/
 build/
 coverage/
+yarn.lock
