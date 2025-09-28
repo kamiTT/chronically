@@ -1,17 +1,17 @@
 ---
 date: 2025-09-26
-slug:  becoming-disabled
+slug: becoming-disabled
 draft: true
 title: Becoming Disabled as an Adult
 categories:
-    - disability
+  - disability
 tags:
-    - disability
+  - disability
 weight: 1
 ---
 
 ## Introduction
 
-This is **bold** text, and this is *emphasized* text.
+This is **bold** text, and this is _emphasized_ text.
 
 Visit the [Hugo](https://gohugo.io) website!

@@ -13,7 +13,6 @@ This repository houses the source code for [chronically.blog](https://chronicall
 3. Run `hugo server` in the root directory of this repository.
 4. Go to <http://localhost:1313>.
 
-
 #### Adding content
 
 To add a new blog post, either copy an existing post
@@ -24,4 +23,3 @@ hugo new content/YYYY/MM/some-title/index.md
 ```
 
 You can then edit the newly created file with your favorite text editor, and add images/resources next to it.
-
