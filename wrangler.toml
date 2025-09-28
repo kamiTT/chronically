@@ -11,3 +11,5 @@ compatibility_date = "2025-07-31"
 [[routes]]
   pattern = "chronically.blog"
   custom_domain = true
+  override_existing_dns_record = true
+
