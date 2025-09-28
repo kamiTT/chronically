@@ -10,20 +10,22 @@
     "type": "git",
     "url": "git+https://github.com/kamiTT/chronically.git"
   },
-  "license": "Creative Commons BY-NC 4.0",
+  "license": "CC-BY-NC-4.0",
   "author": "kamiTT",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "npx prettier '**/*.{js,css,md,scss,html}' --write"
   },
   "devDependencies": {
     "husky": "^9.1.7",
     "lint-staged": "^16.2.3",
+    "prettier": "^3.6.2",
     "prettier-plugin-go-template": "^0.0.15"
   },
   "lint-staged": {
-    "**/*.{js,css,md,scss}": "prettier --write"
+    "**/*.{js,css,md,scss,html}": "prettier --write"
   }
 }
