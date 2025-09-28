@@ -16,7 +16,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
     "format": "npx prettier '**/*.{js,css,md,scss,html}' --write",
-    "format:check": "npx prettier '**/*.{js,css,md,scss,html}' --check"
+    "format:check": "npx prettier '**/*.{js,css,md,scss,html}' --check",
+    "lint": "npx eslint . --fix"
   },
   "devDependencies": {
     "@eslint/css": "^0.11.1",
