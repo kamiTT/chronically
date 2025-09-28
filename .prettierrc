@@ -31,15 +31,12 @@
     {
       "files": "*.md",
       "options": {
-        "proseWrap": "always",
-        "printWidth": 80
+        "printWidth": 120,
+        "proseWrap": "always"
       }
     },
     {
-      "files": "*.json",
-      "options": {
-        "printWidth": 80
-      }
+      "files": "*.json"
     },
     {
       "files": "*.yml",
