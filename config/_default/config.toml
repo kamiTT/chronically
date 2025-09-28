@@ -2,3 +2,10 @@ baseURL      = 'https://chronically.blog/'
 languageCode = 'en-us'
 title        = 'Chronically'
 theme        = 'stack'
+
+defaultContentLanguage = 'en'
+
+hasCJKLanguage = false
+
+[pagination]
+    pagerSize = 5
