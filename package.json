@@ -1,0 +1,29 @@
+{
+  "name": "chronically",
+  "version": "0.1.0",
+  "description": "Blog",
+  "homepage": "https://github.com/kamiTT/chronically#readme",
+  "bugs": {
+    "url": "https://github.com/kamiTT/chronically/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamiTT/chronically.git"
+  },
+  "license": "Creative Commons BY-NC 4.0",
+  "author": "kamiTT",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.3",
+    "prettier-plugin-go-template": "^0.0.15"
+  },
+  "lint-staged": {
+    "**/*.{js,css,md,scss}": "prettier --write"
+  }
+}
