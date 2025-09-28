@@ -3,7 +3,6 @@ date: 2025-09-26
 slug:  becoming-disabled
 draft: true
 title: Becoming Disabled as an Adult
-description: Test post
 categories:
     - disability
 tags:
