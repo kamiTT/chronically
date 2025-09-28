@@ -1,0 +1,6 @@
+[[social]]
+    identifier = "rss"
+    name = "RSS"
+    url = "/index.xml"
+[social.params]
+    icon = "rss"
