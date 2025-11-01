@@ -13,11 +13,11 @@
   "license": "CC-BY-NC-4.0",
   "author": "kamiTT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install",
-    "format": "npx prettier '**/*.{js,css,md,scss,html}' --write",
     "format:check": "npx prettier '**/*.{js,css,md,scss,html}' --check",
-    "lint": "npx eslint . --fix"
+    "format": "npx prettier '**/*.{js,css,md,scss,html}' --write",
+    "lint": "npx eslint . --fix",
+    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "@eslint/css": "^0.11.1",
