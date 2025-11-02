@@ -1,8 +1,15 @@
-+++
-date = '2025-11-01T13:53:54-04:00'
-draft = true
-title = 'Jailbreaking a Thrifted Kindle'
-+++
+---
+date: '2025-11-01T13:53:54-04:00'
+title: 'Jailbreaking a Thrifted Kindle'
+categories:
+  - projects
+  - thrifting
+tags:
+  - kindle
+  - jailbreak
+  - calibre
+weight: 1
+---
 
 ## Today I Decided to Jailbreak a Kindle
 
@@ -30,9 +37,13 @@ how much storage the Kindle had (~1.43GB available according to my Mac) I had tw
 last clue was the active firmware version (5.7.4). That's greater than the last supported version for the 5th Gen, so it
 looked like I had a 6th Gen Kindle Paperwhite on my hands!
 
-{{< figure src="./images/old-firmware.jpg" title="Old Device Information" alt="Old Device Information" width="300px" >}}
+{{< gallery >}}
 
-{{< figure src="./images/new-firmware.jpg" title="New Device Information" alt="New Device Information" width="300px" >}}
+    {{< figure src="./images/old-firmware.jpg" caption="Old Device Information" alt="Old Device Information" width="300px" >}}
+
+    {{< figure src="./images/new-firmware.jpg" caption="New Device Information" alt="New Device Information" width="300px" >}}
+
+{{< /gallery >}}
 
 Once the latest firmware was installed and the Kindle was registered to my account, I got started with the fun bit:
 jailbreaking. Since this was an older model (using firmware version <= 5.18.0), the WinterBreak mod was still viable for
@@ -56,13 +67,13 @@ wanted to jailbreak this thing. I wanted to have cute screensavers for my Kindle
 if you put your Kindle to sleep while outside of the KOReader app, you’ll still have the default screensavers or special
 offers.
 
-{{< gallery "./images/cover1.jpg" "./images/cover2.jpg" "./images/cover3.jpg" >}}
+{{< gallery >}}
 
-<!-- {{< figure src="./images/cover1.jpg" alt="Cat screensaver" width="300px" >}}
+    {{< figure src="./images/cover1.jpg" alt="Cat screensaver" width="300px">}}
 
-{{< figure src="./images/cover2.jpg" alt="Read banned books screensaver" width="300px" >}}
+    {{< figure src="./images/cover2.jpg" alt="Read banned books screensaver" width="300px" >}}
 
-{{< figure src="./images/cover3.jpg" alt="Soot sprites screensaver" width="300px" >}} -->
+{{< /gallery >}}
 
 ## Post Mortem
 
