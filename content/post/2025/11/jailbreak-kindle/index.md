@@ -52,8 +52,8 @@ me to use. I followed the instructions from [this](https://Kindlemodding.org) si
 It still couldn’t do things I wanted it to yet. So I got started on adding extensions.
 [KindleForge](https://github.com/KindleTweaks/KindleForge) is a GUI package manager that comes pre-configured with my
 two main extensions: [KOReader](https://github.com/koreader/koreader) and Toggle ADs. KOReader does most of the heavy
-lifting in terms of features: allowing multiple file formats, calibre integration, and RSS feeds. Toggle ADs gets rid of
-the bane of my existence (persistent, pervasive advertizing) and for that, it deserves to be shouted out separately.
+lifting in terms of features: allowing multiple file formats, Calibre integration, and RSS feeds. Toggle ADs gets rid of
+the bane of my existence: persistent, pervasive advertizing. For that, it deserves to be shouted out separately.
 
 I was able to connect my Kindle to my Calibre instance in order to wirelessly download books. KOReader’s built-in plugin
 that utilizes Calibre’s content server didn’t work for me unfortunately. I’m 90% sure it’s a networking issue with
@@ -88,5 +88,8 @@ The build is unstable on lower firmware versions but it's working fine for me so
 
 ## Resources
 
+- Kindle Modding Guide (https://kindlemodding.org/)
+- Kindle Modding Resources (Lots of good screensavers can be found here) (https://kindlemodshelf.me/index.html)
+- KOReader (https://github.com/koreader/koreader)
 - Filler files for your kindle (https://github.com/bastianmarin/Kindle-Filler-Disk/)
 - Resize images for screensavers (https://www.ebookscreensaver.com/)
