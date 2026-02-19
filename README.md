@@ -19,7 +19,7 @@ To add a new blog post, either copy an existing post or run the following comman
 repository:
 
 ```bash
-hugo new content/YYYY/MM/some-title/index.md
+hugo new post/YYYY/MM/some-title/index.md
 ```
 
 You can then edit the newly created file with your favorite text editor, and add images/resources next to it.
